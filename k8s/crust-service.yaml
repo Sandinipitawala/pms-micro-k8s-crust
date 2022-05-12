@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: crust-service-app
-        image: shamikhhameed/crust-service:0.0.1
+        image: sandinipitawala/crust-service:0.0.1
         imagePullPolicy: Always
         ports:
           - containerPort: 9003
